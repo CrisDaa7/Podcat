@@ -5,44 +5,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@media screen and (max-width: 768px) {
-    /* Ajustes generales para pantallas más pequeñas */
-    body {
-        font-size: 16px;
-    }
-    
-    .container {
-        max-width: 100%;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-        margin: 10px 0;
-    }
-
-    .nav-main {
-        display: none;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-
-    .secondary-content {
-        display: none;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-
 html {
 	font-size: 62.5%;
 }
