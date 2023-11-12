@@ -356,3 +356,36 @@ html{
 	cursor: pointer;
 	position: relative;
 }
+.card-img figure {
+    display: flex;
+    align-items: center; /* Alinea verticalmente las imágenes */
+}
+
+.card-img img {
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+.card-img img:first-child {
+    margin-right: 10px; /* Ajusta el espacio entre las imágenes */
+}
+.imagen-pequena {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-pequena img {
+    width: 40%; /* O el valor que prefieras */
+    border-radius: 0.5rem;
+    align-items: center;
+    max-width: 100%;
+}
+.main-content {
+    max-width: 750px; /* Ajusta el valor según tus necesidades */
+    margin: auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+
+
